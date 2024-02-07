@@ -1,0 +1,17 @@
+h1 {
+    display: block;
+}
+
+p {
+    display: block;
+}
+
+span {
+    color: white;
+
+    display: block;
+    
+    background-color: red;
+    width: 200px;
+    height: 200px;            
+}

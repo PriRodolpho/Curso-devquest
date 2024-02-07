@@ -1,0 +1,23 @@
+
+html {
+    background-color: aliceblue;
+    font-size:32px;
+}
+
+body {
+    background-color: pink;
+    width:50%;
+    font-size:3rem;
+}
+
+.pai {
+    background-color: purple;
+    width:50%;
+    font-size:1.5rem;
+}
+
+.filha {
+    background-color: violet;
+    width:50%;
+    font-size: 1rem;
+}
