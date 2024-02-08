@@ -1,0 +1,16 @@
+div {
+    border:solid gray 10px;
+    padding:10px;
+    width: 100px;
+    height:100px;    
+}
+
+.com-border-boxing {
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+.sem-border-boxing {
+    background-color:violet;
+
+}
