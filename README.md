@@ -1,15 +1,18 @@
-# Aula de README
-Aqui vou praticar o que aprendo 🌈🌈
+# Curso devquest
+Aqui vou praticar o que aprendo no curso 🌈🌈
 
-Sim, eu sei que eu ando adiando bastante
+[<img src="./Gandalf.gif" alt="loopping Gandalf felizão balançando a cabeça">](https://google.com)
 
-[<img src="./Mei rain.gif" alt="criança (Mei) caída na chuva">](https://google.com)
+## Quais são os tópicos
 
-## Dessa vez vai!
-- Estudar antes e depois do expediente
-- Usar o anki
-- Usar o horário de almoço também
-
+- HTML
+- CSS
+- JavaScript
+- React
+- TypeScript
+- Redux
+- SQL
+- Node.js
 ````
-ganbattene ♥
+がんばってね ♥
 ````
