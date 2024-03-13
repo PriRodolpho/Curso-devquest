@@ -7,25 +7,17 @@
 </head>
 <body>
     <h1>Formulários</h1>
-
-    <h3>Formulário com GET</h3>
-
-    <form method="get" action="index.html">
-
-        <input type="text" name="nome" id="nome" placeholder="Nome">
-        <input type="submit">
-
-    </form>
-
-    <h3>Formulário com POST</h3>
-    <form method="post" action="index.html">
+    
+    <h3>Com required e file</h3>
+    <form method="post" action="index.html" enctype="multipart/form-data">
         
-        <input type="text" name="email" id="email" placeholder="E-mail">
-        <input type="submit">
+        <input type="text" name="email" id="email" placeholder="E-mail" required><br><br>
+        <input type="file"><br><br>
+        <input type="submit"><br><br>
 
     </form>
 
-    <h3>Formulário | Login do Facebook</h3>
+    <h3>Formulário | Facebook</h3>
 
     <form method="get" action="index.html" enctype="multipart/form-data">
         <input type="text" name="nome" id="nome" placeholder="Nome">
