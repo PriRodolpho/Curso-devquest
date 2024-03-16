@@ -2,6 +2,19 @@
     background-color: aqua;
 }
 
-/* .container-cascata {
-    backgound-color: orange;
+.container-cascata {
+    background-color: orange;
+}
+
+/* p {
+    background-color: lightskyblue;
 } */
+
+/* .container-especificidade p {
+    background-color: chartreuse;
+} */
+
+/* #meu-paragrafo {
+    background-color: violet;
+} */
+
