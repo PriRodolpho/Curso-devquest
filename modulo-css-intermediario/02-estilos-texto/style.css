@@ -1,0 +1,71 @@
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado {
+    text-align: justify;
+}
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capitalizada {
+    text-transform: capitalize;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+
+.sem-text.decoration {
+    text-decoration: none;
+}
+
+.altura-entre-linhas {
+    line-height: 60px;
+}
+
+.sombra-de-texto {
+    text-shadow: 20px 25px 2px purple;
+}
+
+.fundo-alinhamento {
+    padding: 20px;
+    background-color: skyblue;
+}
+
+.fundo-transform {
+    padding:20px;
+    background-color:lightpink;
+}
+
+.fundo-decoration {
+    padding:20px;
+    background-color:lightgreen;
+}
+
+.fundo {
+    padding:20px;
+    background-color:lightcoral;
+}
+
+html {
+    font-size: 24px;
+}
