@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Campana';
+    src: url(./fonts/CampanaScript_PERSONAL_USE_ONLY.otf)
+}
+
+p {
+    font-family: 'Campana', monospace;
+    font-weight: 300;
+    font-size: 60px;
+}
