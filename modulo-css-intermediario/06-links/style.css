@@ -1,0 +1,17 @@
+a {
+    cursor: progress;
+    color:blueviolet;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:active {
+    color: coral;
+    background-color: purple;
+}
+
+a:hover {
+    color: blue;
+}
