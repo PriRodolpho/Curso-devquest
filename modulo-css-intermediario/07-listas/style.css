@@ -1,3 +1,7 @@
 ul {
-    list-style-image: url(./images/icone.png)
+    list-style: inside circle;
+}
+
+ul li {
+    border: solid black 1px;
 }
