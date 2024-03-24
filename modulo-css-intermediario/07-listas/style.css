@@ -1,7 +1,19 @@
+* {
+    border:0;
+    padding:0;
+}
 ul {
-    list-style: inside circle;
+    list-style: inside circle url(./images/icon_ok.png);
 }
 
 ul li {
-    border: solid black 1px;
+    background-color: skyblue;
+}
+
+ol {
+    list-style: inside circle url(./images/icon_denied.png)
+}
+
+ol li{
+    background-color: pink;
 }
