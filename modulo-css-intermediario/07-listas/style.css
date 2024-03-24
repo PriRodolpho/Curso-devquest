@@ -4,16 +4,10 @@
 }
 ul {
     list-style: inside circle url(./images/icon_ok.png);
-}
-
-ul li {
     background-color: skyblue;
 }
 
 ol {
-    list-style: inside circle url(./images/icon_denied.png)
-}
-
-ol li{
+    list-style: inside circle url(./images/icon_denied.png);
     background-color: pink;
 }
