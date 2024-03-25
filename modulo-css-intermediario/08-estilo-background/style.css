@@ -1,7 +1,28 @@
-p {
-    color: white;
+.bg {
+    color: black;
     font-size: 24px;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: skyblue;
+    background-image: url('./image/Mei\ rain.gif');
 }
 
+.bg-image {
+    width: 576px;
+    height: 341px;
+}
+
+.bg-repeat {
+    background-repeat: repeat-y;
+    height: 600px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 576px;
+}
+
+.bg-fixed {
+    background-attachment:fixed;
+    height: 576px;
+}
