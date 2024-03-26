@@ -23,6 +23,11 @@
 }
 
 .bg-fixed {
-    background-attachment:fixed;
+    background-attachment: fixed;
     height: 576px;
+}
+
+.bg-position {
+    height: 576px;
+    background: url('./image/cat.jpg') no-repeat scroll center;
 }
