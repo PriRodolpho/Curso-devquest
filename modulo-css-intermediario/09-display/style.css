@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+html {
+    font-size: 24px;
+}
+
+
+
+.em-bloco li {
+    background:lightpink;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.em-linha li {
+    display:inline;
+    background: lightpink;
+}
+
+.em-linha-e-bloco {
+    display: inline-block;
+    background:lightpink;
+    height: 100px;
+    width: 100px;
+}
+
+.esconder {
+    display: none;
+    background: lightpink;
+    height: 100px;
+    width: 100px;
+}
