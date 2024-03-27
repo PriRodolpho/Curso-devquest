@@ -1,0 +1,12 @@
+#vai-tremer {
+    animation: tremer .2s;
+    animation-iteration-count: 6s;
+}
+
+@keyframes tremer {
+    0% {margin-left: 0;}
+    25% {margin-left: 5px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -5px;}
+    100% {margin-left: 0;}
+}
