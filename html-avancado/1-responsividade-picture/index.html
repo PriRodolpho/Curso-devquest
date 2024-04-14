@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Imagens responsivas com picture</title>
+    <h1>Picture com mobile source</h1>
+
+    <picture>
+        <source media="(min-width: 1025px)" srcset="https://placebear.com/1000/800">
+        <source media="(min-width: 770px)" srcset="https://placebear.com/700/600">
+        <source media="(min-width: 465px)" srcset="https://placebear.com/200/300">
+        <img src="https://placekitten.com/200/300" alt="imagem de um gatinho">
+    </picture>
 </head>
 <body>
     
