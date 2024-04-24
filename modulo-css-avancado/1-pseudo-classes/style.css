@@ -1,0 +1,19 @@
+p:first-child {
+    color:pink;
+}
+
+p:last-child {
+    color:plum;
+}
+
+p:only-child {
+    color:gray;
+}
+
+/* p:not(.teste) {
+    color:brown;
+} */
+
+li:nth-child(n+2):nth-child(-n+5) {
+    color:cornflowerblue;
+}
