@@ -1,0 +1,40 @@
+h1 {
+    color: steelblue;
+}
+
+.classe {
+    color: blue;
+}
+
+#id {
+    color: aqua;
+}
+
+.class.orange {
+    color: orange;
+}
+
+.class.red {
+    color:red;
+}
+
+.classe .purple {
+    color: purple;
+}
+
+h3, h2 {
+    font-size: 30px;
+    color:orchid;
+}
+
+div > p {
+    color:yellowgreen;
+}
+
+div + p {
+    color:tomato;
+}
+
+a[target="_blank"] {
+    color:palevioletred;
+}
