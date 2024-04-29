@@ -1,0 +1,32 @@
+:root{
+    --cor-padrao: plum;
+    --tamanho-fonte: 25px;
+}
+
+h1 {
+    color: var(--cor-padrao, blue);
+    font-size: var(--tamanho-fonte, 10px);
+}
+
+h2 {
+    color: var(--cor-padrao, blue);
+    font-size: var(--tamanho-fonte, 10px);
+}
+
+h3 {
+    color: var(--cor-padrao, blue);
+    font-size: var(--tamanho-fonte, 10px);
+}
+
+p {
+    --cor-alternativa: pink;
+    --tamanhho-alternativo: 50px;
+    
+    color: var(--cor-alternativa, blue);
+    font-size: var(--tamanhho-alternativo, 10px);
+}
+
+span {
+    color: var(--cor-padrao, blue);
+    font-size: var(--tamanho-fonte, 10px);
+}
