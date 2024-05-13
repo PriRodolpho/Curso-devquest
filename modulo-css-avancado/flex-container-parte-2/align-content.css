@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.flex-start .item, flex-end .item, .center .item, .stretch .item {
+.flex-start .item, .flex-end .item, .center .item, .stretch .item {
     flex: 1;
 }
 
