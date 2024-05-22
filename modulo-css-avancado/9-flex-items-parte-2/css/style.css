@@ -1,0 +1,7 @@
+.flex {
+    flex: 0 1 100px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
