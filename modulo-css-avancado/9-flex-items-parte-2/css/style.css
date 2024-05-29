@@ -7,9 +7,17 @@
 }
 
 .item.item3 {
-    order: 1;
+    order: 0;
 }
 
 .item.item1 {
-    order: 2;
+    order: 0;
+}
+
+.align-self .item5 {
+    align-self: auto;
+}
+
+.align-self .item3 {
+    align-self: flex-start;
 }
