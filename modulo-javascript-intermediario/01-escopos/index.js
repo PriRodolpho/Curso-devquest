@@ -1,23 +1,28 @@
 
-// Tipo bloco
+// Tipo global
+let mensagemGlobal = 'Plim, plim'
 
-confirm('toc, toc')
+console.log(mensagemGlobal);
 
-if(true){
-    const primeiraMensagem = 'Olá'
-    console.log(primeiraMensagem);    
-}
-    console.log(primeiraMensagem);
-    console.log(mensagemGlobal)
+// // Tipo bloco
+
+// confirm('toc, toc')
+
+// if(true){
+//     const primeiraMensagem = 'Olá'
+//     console.log(primeiraMensagem);    
+// }
+//     console.log(primeiraMensagem);
+//     console.log(mensagemGlobal)
     
-// Tipo autônomo
+// // Tipo autônomo
 
-{
-    let segundaMensagem = 'turupom?'
-    console.log(segundaMensagem);
-    console.log(mensagemGlobal)    
-}
-    console.log(segundaMensagem);
+// {
+//     let segundaMensagem = 'turupom?'
+//     console.log(segundaMensagem);
+//     console.log(mensagemGlobal)    
+// }
+//     console.log(segundaMensagem);
 
 // Tipo função
     
@@ -25,18 +30,17 @@ if(true){
         const terceiraMensagem = 'Pode entrar'
         console.log(terceiraMensagem);
         console.log(mensagemGlobal)
-        const outroEscopo(){
+        function outroEscopo(){
             let quartaMensagem = 'Quer chá?'
             console.log(quartaMensagem)
             console.log(mensagemGlobal)        
         }
-        console.log(quartaMensagem)        
+        outroEscopo()      
     }
+        tipoEscopo()
+        outroEscopo()
+        console.log(quartaMensagem)    
         console.log(terceiraMensagem)
 
-        tipoEscopo()
+        
 
-// Tipo global
-        let mensagemGlobal = 'Plim, plim'
-
-        console.log(mensagemGlobal);
